@@ -93,9 +93,10 @@ yarn start
 
 ## 🐳 Docker Deployment
 
-Build and run the container:
+Build and run the container by running this code in the same directory the dockerfile is :
 ```bash
-docker-compose up --build
+docker build -t my-app .
+docker run -p 4040:4040 my-app
 ```
 
 Make sure your `.env` file is correctly set before running this.
@@ -119,9 +120,7 @@ Access detailed API schema at:
 
 ## 🔗 Make.com Integration
 
-1. In your Make.com dashboard, create a **Scenario** with a **Webhook** trigger.
-2. Copy the webhook URL and save it in your backend configuration (optional `.env` or code file).
-3. When a job completes, the enriched book data will be POSTed to the webhook in JSON format.
+- Still in progress
 
 ### 📸 Screenshot
 
@@ -155,5 +154,5 @@ Check `package.json` for all available commands:
   },
 ```
 
-**Made with ❤️ by [Your Name]**  
+**Made with ❤️ by Akintola Felix**  
 _This project was built as part of the AnchorBrowser technical task._
