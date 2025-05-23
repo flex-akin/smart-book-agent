@@ -119,8 +119,8 @@ Access detailed API schema at:
 - Still in progress
 
 ### 📸 Screenshot
-
-
+- Screenshot of Scraped output sample
+![Make.com Scenario](./public/outputDataFormat.png)
 ---
 
 ## 🧩 Assumptions & Limitations
