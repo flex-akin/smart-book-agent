@@ -82,11 +82,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 Use:
 ```bash
-yarn dev
-```
-or
-```bash
-yarn start
+npm run start:dev
 ```
 
 ---
